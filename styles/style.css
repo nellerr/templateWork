@@ -1,0 +1,165 @@
+.container{
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+}
+.test__contact{
+   
+    background-image: url(../image/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 95px;
+}
+.test__call p{ 
+   margin-bottom: 10px;
+   font-size: 48px;
+   text-transform: uppercase;
+   font-family: 'HelveticaNeueLTStd';
+   color: #E76122;
+  
+}
+.test__adress p{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'sanslight';
+}
+.test__icon{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.facebook img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.twitter img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.linkedin img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pinterest img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.test__message p{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'HelveticaNeueLTStd';
+    color: #E76122;
+    margin-bottom: 25px;
+}
+.test__info p{
+    margin-bottom: 14px;
+    font-family: 'sansitalic';
+    color: #fff;
+    text-align: center;
+    line-height: 1.714;
+    font-size: 14px;
+   
+}
+.text__form{
+    display: flex;
+  
+    
+}
+.left__inputs{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+#inp__name{
+   width: 370px;
+   height: 45px;
+   border-radius: 5px;
+   border: 1px solid white;
+   padding: 15px 20px;
+
+}
+#inp__email{
+    width: 370px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top:15px;
+    border: 1px solid white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+ 
+ }
+ #inp__phone{
+    width: 370px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px 20px;
+}
+
+ .right__input{
+     display: flex;
+ }
+ .right__input textarea{
+     width: 370px;
+     resize: none;
+     border-radius: 5px;
+     border: 1px solid white;
+     padding: 15px 20px;
+     font-size: 14px;
+     color: rgb(119, 119, 119);
+ }
+ .test__button{
+     width: 175px;
+     height: 50px;
+     margin-top: 30px;
+     margin-bottom: 110px;
+     border: 1px solid #5DBDB1;
+     background-color: #5DBDB1;
+     border-radius: 5px;
+     text-align: center;
+     padding-top: 13px;
+     cursor: pointer;
+ }
+ .test__button a{
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'sansbold';
+    
+ }
+ .test__creative{
+     margin-top: 30px;
+ }
+ .test__creative p{
+    font-size: 13px;
+    font-family: 'sansnormal';
+    color: rgb(255, 255, 255);
+    line-height: 1.846;
+ }
+.test__arrow{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+  
+
+
+
+
+  
